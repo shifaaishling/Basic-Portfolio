@@ -1,0 +1,239 @@
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.textOverImage{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 4px;
+    background-size:100%;
+}
+div.static {
+    position: static;
+    border: 3px solid teal
+}
+
+h1 {
+    width: 12.3%;
+    padding: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-bottom: 20px;
+    margin-top: 10px
+    color:white;
+    background:teal;
+}
+
+header {
+    width: 15%;
+    padding: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-bottom: 20px;
+    margin-top: 10px
+    color: white;
+    background:teal;
+}
+
+
+footer {
+    padding: 1em;
+    color: white;
+    background-color:#666666;
+    clear: left;
+    text-align: center;
+}
+   nav{
+float: right;
+line-height: 70px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px 20px;
+    margin-left: 10px;
+    background: #dddddd;
+    line-height: normal;
+}
+.container {
+    max-width: 900px;
+    width: 96%;
+    margin: auto;
+    float: left;
+}
+
+
+.content p {
+    float: left;
+    width: 600px;
+    background: grey;
+    padding: 20px;
+    border-radius: 5px;
+}
+body { 
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgrey;
+    background: #f3f3f3
+
+    .container {
+        max0width: 960px;
+        width: 96%
+        margin: auto;
+    }
+
+}
+#about-me {
+    width: 33.3%;
+    float: right;
+    color: #777777;
+    height: 20px;
+    background-image: url(darkness.png)
+
+}
+
+#portfolio {
+    width: 33.3%;
+    float: left;
+    color:#777777;
+    height: 20px;
+}
+
+#contact {
+    width: 33.3%;
+    float: left;
+    color: #777777;
+    height: 20px;
+}
+
+* {box-sizing: content-box}
+.links::after {
+    Content: "about-me";
+    Display: block;
+    Clear: both;
+}
+#para {
+    float: left;
+    text-align: left;
+    color: grey;
+}
+
+ bio-img {
+   
+float: left;
+position: relative;
+text-align: center;
+padding: 20px;
+}
+
+#full {
+    width: 100%;
+    overflow: auto;
+    clear: both;
+    background: grey;
+  }
+  
+   
+
+
+  .boxed {
+      
+      background: lightgrey; 
+  }
+
+  .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+  }
+
+  <html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  .container {
+      position: relative;
+      width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: teal;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+
+
+  <style>
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 9%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-40%, -20%);
+  -ms-transform: translate(-40%, -20%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: teal;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+</style>
